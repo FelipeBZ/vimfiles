@@ -27,6 +27,7 @@ set guioptions-=T " Toolbar é coisa para fracos
 " Para CSS e HTML, usar 2 espaços de identação. Quatro espaços é exagero
 autocmd FileType css set ai tabstop=2 shiftwidth=2 expandtab
 autocmd FileType html set ai tabstop=2 shiftwidth=2 expandtab
+autocmd FileType scss set ai tabstop=2 shiftwidth=2 expandtab
 
 " Atalhos para plugins
 map <F5> :NERDTree<CR>
