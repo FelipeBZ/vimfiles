@@ -109,5 +109,12 @@ inoremap <C-F4> <C-O><C-W>c
 cnoremap <C-F4> <C-C><C-W>c
 onoremap <C-F4> <C-C><C-W>c
 
+" Navegação pelo teclado como no modo normal,
+" ignorando as quebras de linha do arquivo
+noremap <Up> gk
+noremap <Down> gj
+inoremap <Up> <c-o>gk
+inoremap <Down> <c-o>gj
+
 " Baseado em
 " http://henriquegogo.wordpress.com/2009/08/31/disseram-me-ide-entao-eu-vim
