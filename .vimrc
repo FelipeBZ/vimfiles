@@ -1,4 +1,5 @@
 " Opções gerais:
+call pathogen#runtime_append_all_bundles()
 syntax on
 set nobackup
 set wildmode=longest,list " Completa o comando com TAB igual o bash
@@ -32,7 +33,6 @@ autocmd FileType less set ai tabstop=2 shiftwidth=2 expandtab
 
 " Atalhos para plugins
 map <F5> :NERDTree<CR>
-map <F6> :ColorSel<CR>
 
 " Cria e escolhe as abas
 map <C-t> :tabnew<CR>
