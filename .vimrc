@@ -22,7 +22,7 @@ set shiftwidth=4
 " Opções de GUI
 colorscheme koehler
 set number
-set guifont=Monaco\ 10  
+set guifont=Monaco\ 11
 set guioptions-=T " Toolbar é coisa para fracos
 
 " Para CSS e HTML, usar 2 espaços de identação. Quatro espaços é exagero
