@@ -1,1 +1,0 @@
-/home/felipe/dev/vimfiles/.vim/bundle/vim-pathogen/autoload/pathogen.vim
