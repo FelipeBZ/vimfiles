@@ -1,8 +1,9 @@
 " Opções gerais:
-call pathogen#runtime_append_all_bundles()
+call pathogen#infect()
 syntax on
 set nobackup
 set wildmode=longest,list " Completa o comando com TAB igual o bash
+set autochdir
 
 " Opções de pesquisa:
 set ignorecase
@@ -22,7 +23,7 @@ set shiftwidth=4
 " Opções de GUI
 colorscheme koehler
 set number
-set guifont=Monaco\ 10  
+set guifont=Droid\ Sans\ Mono\ 12
 set guioptions-=T " Toolbar é coisa para fracos
 
 " Para CSS e HTML, usar 2 espaços de identação. Quatro espaços é exagero
@@ -30,6 +31,7 @@ autocmd FileType css set ai tabstop=2 shiftwidth=2 expandtab
 autocmd FileType html set ai tabstop=2 shiftwidth=2 expandtab
 autocmd FileType scss set ai tabstop=2 shiftwidth=2 expandtab
 autocmd FileType less set ai tabstop=2 shiftwidth=2 expandtab
+autocmd FileType javascript set ai tabstop=2 shiftwidth=2 expandtab
 
 " Atalhos para plugins
 map <F5> :NERDTree<CR>
